@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #2a2a2a;
+  font-family: 'PT Serif', serif;
+  text-transform: none;
+}
+
+h1 { 
+	font-family: 'Girassol', cursive;
+ }
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #230098;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .100;
+  vertical-align: middle;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #2a2a2a;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#nav-list a {
+  color: #2a2a2a;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #2a2a2a;
+  color: white;
+}
+
+.container-fluid {
+	width: 90%;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	font-weight: bold;
+	font-size: 2em;
+	background-color: #ec3f39;
+	width: 45%;
+	position: relative;
+	left: 27.5%;
+}
+
+.row div {
+	background-color: #046a6f;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 1.6em;
+	background-color: #ec3f39;
+	width: 35%;
+	position: relative;
+	left: 32.5%;
+}
